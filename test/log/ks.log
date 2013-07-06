@@ -1,0 +1,904 @@
+2013-01-02 14:42:47,613 - kuaisoo.py:199 - handler - <xml><ToUserName><![CDATA[gh_1ff87fe87f88]]></ToUserName>
+<FromUserName><![CDATA[oaEn2jhk1nCu9VREAmtTDufQd5kw]]></FromUserName>
+<CreateTime>1356344005</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[u]]></Content>
+</xml>
+2013-01-02 14:42:47,613 - kuaisoo.py:172 - handler - h1
+2013-01-02 14:42:47,634 - google.py:31 - handler - url:http://ajax.googleapis.com/ajax/services/search/web?v=1.0&q=u&rsz=large
+2013-01-02 14:42:48,178 - kuaisoo.py:185 - handler - exception on handle msg
+Traceback (most recent call last):
+  File "/Users/user/Documents/workspace/KuaiSoo/src/kuaisoo.py", line 181, in handle
+    result = action(self)
+  File "/Users/user/Documents/workspace/KuaiSoo/src/msg_action.py", line 32, in text_handler
+    content = google.search(wx_post.getNodeValue('Content'))
+  File "/Users/user/Documents/workspace/KuaiSoo/src/google.py", line 35, in search
+    search_results = urllib.urlopen(url)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib.py", line 84, in urlopen
+    return opener.open(url)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib.py", line 205, in open
+    return getattr(self, name)(url)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib.py", line 342, in open_http
+    h.endheaders(data)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 951, in endheaders
+    self._send_output(message_body)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 811, in _send_output
+    self.send(msg)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 773, in send
+    self.connect()
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 754, in connect
+    self.timeout, self.source_address)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/socket.py", line 571, in create_connection
+    raise err
+IOError: [Errno socket error] [Errno 61] Connection refused
+2013-01-02 14:42:48,217 - kuaisoo.py:172 - handler - h1
+2013-01-02 14:42:48,218 - google.py:31 - handler - url:http://ajax.googleapis.com/ajax/services/search/web?v=1.0&q=u&rsz=large
+2013-01-02 14:42:48,271 - kuaisoo.py:185 - handler - exception on handle msg
+Traceback (most recent call last):
+  File "/Users/user/Documents/workspace/KuaiSoo/src/kuaisoo.py", line 181, in handle
+    result = action(self)
+  File "/Users/user/Documents/workspace/KuaiSoo/src/msg_action.py", line 32, in text_handler
+    content = google.search(wx_post.getNodeValue('Content'))
+  File "/Users/user/Documents/workspace/KuaiSoo/src/google.py", line 35, in search
+    search_results = urllib.urlopen(url)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib.py", line 84, in urlopen
+    return opener.open(url)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib.py", line 205, in open
+    return getattr(self, name)(url)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib.py", line 342, in open_http
+    h.endheaders(data)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 951, in endheaders
+    self._send_output(message_body)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 811, in _send_output
+    self.send(msg)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 773, in send
+    self.connect()
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 754, in connect
+    self.timeout, self.source_address)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/socket.py", line 571, in create_connection
+    raise err
+IOError: [Errno socket error] [Errno 61] Connection refused
+2013-01-02 14:46:22,802 - kuaisoo.py:199 - handler - <xml><ToUserName><![CDATA[gh_1ff87fe87f88]]></ToUserName>
+<FromUserName><![CDATA[oaEn2jhk1nCu9VREAmtTDufQd5kw]]></FromUserName>
+<CreateTime>1356344005</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[u]]></Content>
+</xml>
+2013-01-02 14:46:22,804 - kuaisoo.py:172 - handler - h1
+2013-01-02 14:46:22,812 - google.py:31 - handler - url:http://ajax.googleapis.com/ajax/services/search/web?v=1.0&q=u&rsz=large
+2013-01-02 14:46:23,249 - kuaisoo.py:185 - handler - exception on handle msg
+Traceback (most recent call last):
+  File "/Users/user/Documents/workspace/KuaiSoo/src/kuaisoo.py", line 181, in handle
+    result = action(self)
+  File "/Users/user/Documents/workspace/KuaiSoo/src/msg_action.py", line 32, in text_handler
+    content = google.search(wx_post.getNodeValue('Content'))
+  File "/Users/user/Documents/workspace/KuaiSoo/src/google.py", line 35, in search
+    search_results = urllib.urlopen(url)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib.py", line 84, in urlopen
+    return opener.open(url)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib.py", line 205, in open
+    return getattr(self, name)(url)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib.py", line 342, in open_http
+    h.endheaders(data)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 951, in endheaders
+    self._send_output(message_body)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 811, in _send_output
+    self.send(msg)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 773, in send
+    self.connect()
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 754, in connect
+    self.timeout, self.source_address)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/socket.py", line 571, in create_connection
+    raise err
+IOError: [Errno socket error] [Errno 61] Connection refused
+2013-01-02 14:46:23,311 - kuaisoo.py:172 - handler - h1
+2013-01-02 14:46:23,313 - google.py:31 - handler - url:http://ajax.googleapis.com/ajax/services/search/web?v=1.0&q=u&rsz=large
+2013-01-02 14:46:23,373 - kuaisoo.py:185 - handler - exception on handle msg
+Traceback (most recent call last):
+  File "/Users/user/Documents/workspace/KuaiSoo/src/kuaisoo.py", line 181, in handle
+    result = action(self)
+  File "/Users/user/Documents/workspace/KuaiSoo/src/msg_action.py", line 32, in text_handler
+    content = google.search(wx_post.getNodeValue('Content'))
+  File "/Users/user/Documents/workspace/KuaiSoo/src/google.py", line 35, in search
+    search_results = urllib.urlopen(url)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib.py", line 84, in urlopen
+    return opener.open(url)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib.py", line 205, in open
+    return getattr(self, name)(url)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib.py", line 342, in open_http
+    h.endheaders(data)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 951, in endheaders
+    self._send_output(message_body)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 811, in _send_output
+    self.send(msg)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 773, in send
+    self.connect()
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 754, in connect
+    self.timeout, self.source_address)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/socket.py", line 571, in create_connection
+    raise err
+IOError: [Errno socket error] [Errno 61] Connection refused
+2013-01-02 14:46:50,004 - kuaisoo.py:200 - handler - <xml><ToUserName><![CDATA[gh_1ff87fe87f88]]></ToUserName>
+<FromUserName><![CDATA[oaEn2jhk1nCu9VREAmtTDufQd5kw]]></FromUserName>
+<CreateTime>1356344005</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[u]]></Content>
+</xml>
+2013-01-02 14:46:50,005 - kuaisoo.py:172 - handler - h1
+2013-01-02 14:46:50,007 - google.py:31 - handler - url:http://ajax.googleapis.com/ajax/services/search/web?v=1.0&q=u&rsz=large
+2013-01-02 14:46:50,074 - kuaisoo.py:186 - handler - exception on handle msg
+Traceback (most recent call last):
+  File "/Users/user/Documents/workspace/KuaiSoo/src/kuaisoo.py", line 182, in handle
+    result = action(self)
+  File "/Users/user/Documents/workspace/KuaiSoo/src/msg_action.py", line 32, in text_handler
+    content = google.search(wx_post.getNodeValue('Content'))
+  File "/Users/user/Documents/workspace/KuaiSoo/src/google.py", line 35, in search
+    search_results = urllib.urlopen(url)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib.py", line 84, in urlopen
+    return opener.open(url)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib.py", line 205, in open
+    return getattr(self, name)(url)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib.py", line 342, in open_http
+    h.endheaders(data)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 951, in endheaders
+    self._send_output(message_body)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 811, in _send_output
+    self.send(msg)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 773, in send
+    self.connect()
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 754, in connect
+    self.timeout, self.source_address)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/socket.py", line 571, in create_connection
+    raise err
+IOError: [Errno socket error] [Errno 61] Connection refused
+2013-01-02 14:46:50,121 - kuaisoo.py:172 - handler - h1
+2013-01-02 14:46:50,122 - google.py:31 - handler - url:http://ajax.googleapis.com/ajax/services/search/web?v=1.0&q=u&rsz=large
+2013-01-02 14:46:50,167 - kuaisoo.py:186 - handler - exception on handle msg
+Traceback (most recent call last):
+  File "/Users/user/Documents/workspace/KuaiSoo/src/kuaisoo.py", line 182, in handle
+    result = action(self)
+  File "/Users/user/Documents/workspace/KuaiSoo/src/msg_action.py", line 32, in text_handler
+    content = google.search(wx_post.getNodeValue('Content'))
+  File "/Users/user/Documents/workspace/KuaiSoo/src/google.py", line 35, in search
+    search_results = urllib.urlopen(url)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib.py", line 84, in urlopen
+    return opener.open(url)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib.py", line 205, in open
+    return getattr(self, name)(url)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib.py", line 342, in open_http
+    h.endheaders(data)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 951, in endheaders
+    self._send_output(message_body)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 811, in _send_output
+    self.send(msg)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 773, in send
+    self.connect()
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 754, in connect
+    self.timeout, self.source_address)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/socket.py", line 571, in create_connection
+    raise err
+IOError: [Errno socket error] [Errno 61] Connection refused
+2013-01-02 14:47:03,970 - kuaisoo.py:200 - handler - <xml><ToUserName><![CDATA[gh_1ff87fe87f88]]></ToUserName>
+<FromUserName><![CDATA[oaEn2jhk1nCu9VREAmtTDufQd5kw]]></FromUserName>
+<CreateTime>1356344005</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[u]]></Content>
+</xml>
+2013-01-02 14:47:03,971 - kuaisoo.py:172 - handler - h1
+2013-01-02 14:47:03,975 - google.py:31 - handler - url:http://ajax.googleapis.com/ajax/services/search/web?v=1.0&q=u&rsz=large
+2013-01-02 14:47:04,041 - kuaisoo.py:186 - handler - exception on handle msg
+Traceback (most recent call last):
+  File "/Users/user/Documents/workspace/KuaiSoo/src/kuaisoo.py", line 182, in handle
+    result = action(self)
+  File "/Users/user/Documents/workspace/KuaiSoo/src/msg_action.py", line 32, in text_handler
+    content = google.search(wx_post.getNodeValue('Content'))
+  File "/Users/user/Documents/workspace/KuaiSoo/src/google.py", line 35, in search
+    search_results = urllib.urlopen(url)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib.py", line 84, in urlopen
+    return opener.open(url)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib.py", line 205, in open
+    return getattr(self, name)(url)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib.py", line 342, in open_http
+    h.endheaders(data)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 951, in endheaders
+    self._send_output(message_body)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 811, in _send_output
+    self.send(msg)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 773, in send
+    self.connect()
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 754, in connect
+    self.timeout, self.source_address)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/socket.py", line 571, in create_connection
+    raise err
+IOError: [Errno socket error] [Errno 61] Connection refused
+2013-01-02 14:47:04,068 - kuaisoo.py:172 - handler - h1
+2013-01-02 14:47:04,069 - google.py:31 - handler - url:http://ajax.googleapis.com/ajax/services/search/web?v=1.0&q=u&rsz=large
+2013-01-02 14:47:04,121 - kuaisoo.py:186 - handler - exception on handle msg
+Traceback (most recent call last):
+  File "/Users/user/Documents/workspace/KuaiSoo/src/kuaisoo.py", line 182, in handle
+    result = action(self)
+  File "/Users/user/Documents/workspace/KuaiSoo/src/msg_action.py", line 32, in text_handler
+    content = google.search(wx_post.getNodeValue('Content'))
+  File "/Users/user/Documents/workspace/KuaiSoo/src/google.py", line 35, in search
+    search_results = urllib.urlopen(url)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib.py", line 84, in urlopen
+    return opener.open(url)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib.py", line 205, in open
+    return getattr(self, name)(url)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib.py", line 342, in open_http
+    h.endheaders(data)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 951, in endheaders
+    self._send_output(message_body)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 811, in _send_output
+    self.send(msg)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 773, in send
+    self.connect()
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 754, in connect
+    self.timeout, self.source_address)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/socket.py", line 571, in create_connection
+    raise err
+IOError: [Errno socket error] [Errno 61] Connection refused
+2013-01-02 14:47:10,390 - kuaisoo.py:200 - handler - <xml><ToUserName><![CDATA[gh_1ff87fe87f88]]></ToUserName>
+<FromUserName><![CDATA[oaEn2jhk1nCu9VREAmtTDufQd5kw]]></FromUserName>
+<CreateTime>1356344005</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[u]]></Content>
+</xml>
+2013-01-02 14:47:10,391 - kuaisoo.py:172 - handler - h1
+2013-01-02 14:47:10,394 - google.py:31 - handler - url:http://ajax.googleapis.com/ajax/services/search/web?v=1.0&q=u&rsz=large
+2013-01-02 14:47:10,471 - kuaisoo.py:186 - handler - exception on handle msg
+Traceback (most recent call last):
+  File "/Users/user/Documents/workspace/KuaiSoo/src/kuaisoo.py", line 182, in handle
+    result = action(self)
+  File "/Users/user/Documents/workspace/KuaiSoo/src/msg_action.py", line 32, in text_handler
+    content = google.search(wx_post.getNodeValue('Content'))
+  File "/Users/user/Documents/workspace/KuaiSoo/src/google.py", line 35, in search
+    search_results = urllib.urlopen(url)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib.py", line 84, in urlopen
+    return opener.open(url)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib.py", line 205, in open
+    return getattr(self, name)(url)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib.py", line 342, in open_http
+    h.endheaders(data)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 951, in endheaders
+    self._send_output(message_body)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 811, in _send_output
+    self.send(msg)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 773, in send
+    self.connect()
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 754, in connect
+    self.timeout, self.source_address)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/socket.py", line 571, in create_connection
+    raise err
+IOError: [Errno socket error] [Errno 61] Connection refused
+2013-01-02 14:47:10,488 - kuaisoo.py:172 - handler - h1
+2013-01-02 14:47:10,489 - google.py:31 - handler - url:http://ajax.googleapis.com/ajax/services/search/web?v=1.0&q=u&rsz=large
+2013-01-02 14:47:10,542 - kuaisoo.py:186 - handler - exception on handle msg
+Traceback (most recent call last):
+  File "/Users/user/Documents/workspace/KuaiSoo/src/kuaisoo.py", line 182, in handle
+    result = action(self)
+  File "/Users/user/Documents/workspace/KuaiSoo/src/msg_action.py", line 32, in text_handler
+    content = google.search(wx_post.getNodeValue('Content'))
+  File "/Users/user/Documents/workspace/KuaiSoo/src/google.py", line 35, in search
+    search_results = urllib.urlopen(url)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib.py", line 84, in urlopen
+    return opener.open(url)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib.py", line 205, in open
+    return getattr(self, name)(url)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib.py", line 342, in open_http
+    h.endheaders(data)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 951, in endheaders
+    self._send_output(message_body)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 811, in _send_output
+    self.send(msg)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 773, in send
+    self.connect()
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 754, in connect
+    self.timeout, self.source_address)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/socket.py", line 571, in create_connection
+    raise err
+IOError: [Errno socket error] [Errno 61] Connection refused
+2013-01-02 14:47:57,139 - kuaisoo.py:199 - handler - <xml><ToUserName><![CDATA[gh_1ff87fe87f88]]></ToUserName>
+<FromUserName><![CDATA[oaEn2jhk1nCu9VREAmtTDufQd5kw]]></FromUserName>
+<CreateTime>1356344005</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[u]]></Content>
+</xml>
+2013-01-02 14:47:57,140 - google.py:31 - handler - url:http://ajax.googleapis.com/ajax/services/search/web?v=1.0&q=u&rsz=large
+2013-01-02 14:47:57,210 - kuaisoo.py:185 - handler - exception on handle msg
+Traceback (most recent call last):
+  File "/Users/user/Documents/workspace/KuaiSoo/src/kuaisoo.py", line 181, in handle
+    result = action(self)
+  File "/Users/user/Documents/workspace/KuaiSoo/src/msg_action.py", line 32, in text_handler
+    content = google.search(wx_post.getNodeValue('Content'))
+  File "/Users/user/Documents/workspace/KuaiSoo/src/google.py", line 35, in search
+    search_results = urllib.urlopen(url)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib.py", line 84, in urlopen
+    return opener.open(url)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib.py", line 205, in open
+    return getattr(self, name)(url)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib.py", line 342, in open_http
+    h.endheaders(data)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 951, in endheaders
+    self._send_output(message_body)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 811, in _send_output
+    self.send(msg)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 773, in send
+    self.connect()
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 754, in connect
+    self.timeout, self.source_address)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/socket.py", line 571, in create_connection
+    raise err
+IOError: [Errno socket error] [Errno 61] Connection refused
+2013-01-02 14:47:57,220 - google.py:31 - handler - url:http://ajax.googleapis.com/ajax/services/search/web?v=1.0&q=u&rsz=large
+2013-01-02 14:47:57,285 - kuaisoo.py:185 - handler - exception on handle msg
+Traceback (most recent call last):
+  File "/Users/user/Documents/workspace/KuaiSoo/src/kuaisoo.py", line 181, in handle
+    result = action(self)
+  File "/Users/user/Documents/workspace/KuaiSoo/src/msg_action.py", line 32, in text_handler
+    content = google.search(wx_post.getNodeValue('Content'))
+  File "/Users/user/Documents/workspace/KuaiSoo/src/google.py", line 35, in search
+    search_results = urllib.urlopen(url)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib.py", line 84, in urlopen
+    return opener.open(url)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib.py", line 205, in open
+    return getattr(self, name)(url)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib.py", line 342, in open_http
+    h.endheaders(data)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 951, in endheaders
+    self._send_output(message_body)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 811, in _send_output
+    self.send(msg)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 773, in send
+    self.connect()
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 754, in connect
+    self.timeout, self.source_address)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/socket.py", line 571, in create_connection
+    raise err
+IOError: [Errno socket error] [Errno 61] Connection refused
+2013-01-02 14:48:27,523 - kuaisoo.py:199 - handler - <xml><ToUserName><![CDATA[gh_1ff87fe87f88]]></ToUserName>
+<FromUserName><![CDATA[oaEn2jhk1nCu9VREAmtTDufQd5kw]]></FromUserName>
+<CreateTime>1356344005</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[u]]></Content>
+</xml>
+2013-01-02 14:48:27,524 - kuaisoo.py:199 - handler - <xml><ToUserName><![CDATA[gh_1ff87fe87f88]]></ToUserName>
+<FromUserName><![CDATA[oaEn2jhk1nCu9VREAmtTDufQd5kw]]></FromUserName>
+<CreateTime>1356344005</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[u]]></Content>
+</xml>
+2013-01-02 14:48:27,527 - google.py:31 - handler - url:http://ajax.googleapis.com/ajax/services/search/web?v=1.0&q=u&rsz=large
+2013-01-02 14:48:27,618 - kuaisoo.py:185 - handler - exception on handle msg
+Traceback (most recent call last):
+  File "/Users/user/Documents/workspace/KuaiSoo/src/kuaisoo.py", line 181, in handle
+    result = action(self)
+  File "/Users/user/Documents/workspace/KuaiSoo/src/msg_action.py", line 32, in text_handler
+    content = google.search(wx_post.getNodeValue('Content'))
+  File "/Users/user/Documents/workspace/KuaiSoo/src/google.py", line 35, in search
+    search_results = urllib.urlopen(url)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib.py", line 84, in urlopen
+    return opener.open(url)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib.py", line 205, in open
+    return getattr(self, name)(url)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib.py", line 342, in open_http
+    h.endheaders(data)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 951, in endheaders
+    self._send_output(message_body)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 811, in _send_output
+    self.send(msg)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 773, in send
+    self.connect()
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 754, in connect
+    self.timeout, self.source_address)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/socket.py", line 571, in create_connection
+    raise err
+IOError: [Errno socket error] [Errno 61] Connection refused
+2013-01-02 14:48:27,627 - google.py:31 - handler - url:http://ajax.googleapis.com/ajax/services/search/web?v=1.0&q=u&rsz=large
+2013-01-02 14:48:27,678 - kuaisoo.py:185 - handler - exception on handle msg
+Traceback (most recent call last):
+  File "/Users/user/Documents/workspace/KuaiSoo/src/kuaisoo.py", line 181, in handle
+    result = action(self)
+  File "/Users/user/Documents/workspace/KuaiSoo/src/msg_action.py", line 32, in text_handler
+    content = google.search(wx_post.getNodeValue('Content'))
+  File "/Users/user/Documents/workspace/KuaiSoo/src/google.py", line 35, in search
+    search_results = urllib.urlopen(url)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib.py", line 84, in urlopen
+    return opener.open(url)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib.py", line 205, in open
+    return getattr(self, name)(url)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib.py", line 342, in open_http
+    h.endheaders(data)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 951, in endheaders
+    self._send_output(message_body)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 811, in _send_output
+    self.send(msg)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 773, in send
+    self.connect()
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 754, in connect
+    self.timeout, self.source_address)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/socket.py", line 571, in create_connection
+    raise err
+IOError: [Errno socket error] [Errno 61] Connection refused
+2013-01-02 14:56:06,169 - kuaisoo.py:199 - handler - <xml><ToUserName><![CDATA[gh_1ff87fe87f88]]></ToUserName>
+<FromUserName><![CDATA[oaEn2jhk1nCu9VREAmtTDufQd5kw]]></FromUserName>
+<CreateTime>1356344005</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[u]]></Content>
+</xml>
+2013-01-02 14:56:06,173 - kuaisoo.py:199 - handler - <xml><ToUserName><![CDATA[gh_1ff87fe87f88]]></ToUserName>
+<FromUserName><![CDATA[oaEn2jhk1nCu9VREAmtTDufQd5kw]]></FromUserName>
+<CreateTime>1356344005</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[u]]></Content>
+</xml>
+2013-01-02 14:56:06,174 - kuaisoo.py:199 - handler - <xml><ToUserName><![CDATA[gh_1ff87fe87f88]]></ToUserName>
+<FromUserName><![CDATA[oaEn2jhk1nCu9VREAmtTDufQd5kw]]></FromUserName>
+<CreateTime>1356344005</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[u]]></Content>
+</xml>
+2013-01-02 14:56:06,174 - google.py:31 - handler - url:http://ajax.googleapis.com/ajax/services/search/web?v=1.0&q=u&rsz=large
+2013-01-02 14:56:06,782 - kuaisoo.py:185 - handler - exception on handle msg
+Traceback (most recent call last):
+  File "/Users/user/Documents/workspace/KuaiSoo/src/kuaisoo.py", line 181, in handle
+    result = action(self)
+  File "/Users/user/Documents/workspace/KuaiSoo/src/msg_action.py", line 32, in text_handler
+    content = google.search(wx_post.getNodeValue('Content'))
+  File "/Users/user/Documents/workspace/KuaiSoo/src/google.py", line 35, in search
+    search_results = urllib.urlopen(url)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib.py", line 84, in urlopen
+    return opener.open(url)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib.py", line 205, in open
+    return getattr(self, name)(url)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib.py", line 342, in open_http
+    h.endheaders(data)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 951, in endheaders
+    self._send_output(message_body)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 811, in _send_output
+    self.send(msg)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 773, in send
+    self.connect()
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 754, in connect
+    self.timeout, self.source_address)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/socket.py", line 571, in create_connection
+    raise err
+IOError: [Errno socket error] [Errno 61] Connection refused
+2013-01-02 14:56:06,787 - google.py:31 - handler - url:http://ajax.googleapis.com/ajax/services/search/web?v=1.0&q=u&rsz=large
+2013-01-02 14:56:06,834 - kuaisoo.py:185 - handler - exception on handle msg
+Traceback (most recent call last):
+  File "/Users/user/Documents/workspace/KuaiSoo/src/kuaisoo.py", line 181, in handle
+    result = action(self)
+  File "/Users/user/Documents/workspace/KuaiSoo/src/msg_action.py", line 32, in text_handler
+    content = google.search(wx_post.getNodeValue('Content'))
+  File "/Users/user/Documents/workspace/KuaiSoo/src/google.py", line 35, in search
+    search_results = urllib.urlopen(url)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib.py", line 84, in urlopen
+    return opener.open(url)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib.py", line 205, in open
+    return getattr(self, name)(url)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib.py", line 342, in open_http
+    h.endheaders(data)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 951, in endheaders
+    self._send_output(message_body)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 811, in _send_output
+    self.send(msg)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 773, in send
+    self.connect()
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 754, in connect
+    self.timeout, self.source_address)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/socket.py", line 571, in create_connection
+    raise err
+IOError: [Errno socket error] [Errno 61] Connection refused
+2013-01-02 14:56:28,333 - kuaisoo.py:199 - handler - <xml><ToUserName><![CDATA[gh_1ff87fe87f88]]></ToUserName>
+<FromUserName><![CDATA[oaEn2jhk1nCu9VREAmtTDufQd5kw]]></FromUserName>
+<CreateTime>1356344005</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[u]]></Content>
+</xml>
+2013-01-02 14:56:28,375 - kuaisoo.py:122 - handler - new user with wx id:oaEn2jhk1nCu9VREAmtTDufQd5kw
+2013-01-02 14:56:28,436 - kuaisoo.py:199 - handler - <xml><ToUserName><![CDATA[gh_1ff87fe87f88]]></ToUserName>
+<FromUserName><![CDATA[oaEn2jhk1nCu9VREAmtTDufQd5kw]]></FromUserName>
+<CreateTime>1356344005</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[u]]></Content>
+</xml>
+2013-01-02 14:56:28,437 - kuaisoo.py:199 - handler - <xml><ToUserName><![CDATA[gh_1ff87fe87f88]]></ToUserName>
+<FromUserName><![CDATA[oaEn2jhk1nCu9VREAmtTDufQd5kw]]></FromUserName>
+<CreateTime>1356344005</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[u]]></Content>
+</xml>
+2013-01-02 14:56:28,438 - google.py:31 - handler - url:http://ajax.googleapis.com/ajax/services/search/web?v=1.0&q=u&rsz=large
+2013-01-02 14:56:28,674 - kuaisoo.py:185 - handler - exception on handle msg
+Traceback (most recent call last):
+  File "/Users/user/Documents/workspace/KuaiSoo/src/kuaisoo.py", line 181, in handle
+    result = action(self)
+  File "/Users/user/Documents/workspace/KuaiSoo/src/msg_action.py", line 32, in text_handler
+    content = google.search(wx_post.getNodeValue('Content'))
+  File "/Users/user/Documents/workspace/KuaiSoo/src/google.py", line 35, in search
+    search_results = urllib.urlopen(url)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib.py", line 84, in urlopen
+    return opener.open(url)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib.py", line 205, in open
+    return getattr(self, name)(url)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib.py", line 342, in open_http
+    h.endheaders(data)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 951, in endheaders
+    self._send_output(message_body)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 811, in _send_output
+    self.send(msg)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 773, in send
+    self.connect()
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 754, in connect
+    self.timeout, self.source_address)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/socket.py", line 571, in create_connection
+    raise err
+IOError: [Errno socket error] [Errno 61] Connection refused
+2013-01-02 14:56:28,679 - google.py:31 - handler - url:http://ajax.googleapis.com/ajax/services/search/web?v=1.0&q=u&rsz=large
+2013-01-02 14:56:28,728 - kuaisoo.py:185 - handler - exception on handle msg
+Traceback (most recent call last):
+  File "/Users/user/Documents/workspace/KuaiSoo/src/kuaisoo.py", line 181, in handle
+    result = action(self)
+  File "/Users/user/Documents/workspace/KuaiSoo/src/msg_action.py", line 32, in text_handler
+    content = google.search(wx_post.getNodeValue('Content'))
+  File "/Users/user/Documents/workspace/KuaiSoo/src/google.py", line 35, in search
+    search_results = urllib.urlopen(url)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib.py", line 84, in urlopen
+    return opener.open(url)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib.py", line 205, in open
+    return getattr(self, name)(url)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib.py", line 342, in open_http
+    h.endheaders(data)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 951, in endheaders
+    self._send_output(message_body)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 811, in _send_output
+    self.send(msg)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 773, in send
+    self.connect()
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 754, in connect
+    self.timeout, self.source_address)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/socket.py", line 571, in create_connection
+    raise err
+IOError: [Errno socket error] [Errno 61] Connection refused
+2013-01-02 14:59:40,300 - kuaisoo.py:199 - handler - <xml><ToUserName><![CDATA[gh_1ff87fe87f88]]></ToUserName>
+<FromUserName><![CDATA[oaEn2jhk1nCu9VREAmtTDufQd5kw]]></FromUserName>
+<CreateTime>1356344005</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[u]]></Content>
+</xml>
+2013-01-02 14:59:58,557 - kuaisoo.py:122 - handler - new user with wx id:oaEn2jhk1nCu9VREAmtTDufQd5kw
+2013-01-02 15:00:01,089 - kuaisoo.py:199 - handler - <xml><ToUserName><![CDATA[gh_1ff87fe87f88]]></ToUserName>
+<FromUserName><![CDATA[oaEn2jhk1nCu9VREAmtTDufQd5kw]]></FromUserName>
+<CreateTime>1356344005</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[u]]></Content>
+</xml>
+2013-01-02 15:00:25,430 - kuaisoo.py:199 - handler - <xml><ToUserName><![CDATA[gh_1ff87fe87f88]]></ToUserName>
+<FromUserName><![CDATA[oaEn2jhk1nCu9VREAmtTDufQd5kw]]></FromUserName>
+<CreateTime>1356344005</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[u]]></Content>
+</xml>
+2013-01-02 15:00:25,432 - google.py:31 - handler - url:http://ajax.googleapis.com/ajax/services/search/web?v=1.0&q=u&rsz=large
+2013-01-02 15:00:25,882 - kuaisoo.py:185 - handler - exception on handle msg
+Traceback (most recent call last):
+  File "/Users/user/Documents/workspace/KuaiSoo/src/kuaisoo.py", line 181, in handle
+    result = action(self)
+  File "/Users/user/Documents/workspace/KuaiSoo/src/msg_action.py", line 32, in text_handler
+    content = google.search(wx_post.getNodeValue('Content'))
+  File "/Users/user/Documents/workspace/KuaiSoo/src/google.py", line 35, in search
+    search_results = urllib.urlopen(url)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib.py", line 84, in urlopen
+    return opener.open(url)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib.py", line 205, in open
+    return getattr(self, name)(url)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib.py", line 342, in open_http
+    h.endheaders(data)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 951, in endheaders
+    self._send_output(message_body)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 811, in _send_output
+    self.send(msg)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 773, in send
+    self.connect()
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 754, in connect
+    self.timeout, self.source_address)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/socket.py", line 571, in create_connection
+    raise err
+IOError: [Errno socket error] [Errno 61] Connection refused
+2013-01-02 15:00:25,899 - google.py:31 - handler - url:http://ajax.googleapis.com/ajax/services/search/web?v=1.0&q=u&rsz=large
+2013-01-02 15:00:27,057 - kuaisoo.py:185 - handler - exception on handle msg
+Traceback (most recent call last):
+  File "/Users/user/Documents/workspace/KuaiSoo/src/kuaisoo.py", line 181, in handle
+    result = action(self)
+  File "/Users/user/Documents/workspace/KuaiSoo/src/msg_action.py", line 32, in text_handler
+    content = google.search(wx_post.getNodeValue('Content'))
+  File "/Users/user/Documents/workspace/KuaiSoo/src/google.py", line 35, in search
+    search_results = urllib.urlopen(url)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib.py", line 84, in urlopen
+    return opener.open(url)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib.py", line 205, in open
+    return getattr(self, name)(url)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib.py", line 342, in open_http
+    h.endheaders(data)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 951, in endheaders
+    self._send_output(message_body)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 811, in _send_output
+    self.send(msg)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 773, in send
+    self.connect()
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 754, in connect
+    self.timeout, self.source_address)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/socket.py", line 571, in create_connection
+    raise err
+IOError: [Errno socket error] [Errno 61] Connection refused
+2013-01-02 15:00:52,509 - kuaisoo.py:199 - handler - <xml><ToUserName><![CDATA[gh_1ff87fe87f88]]></ToUserName>
+<FromUserName><![CDATA[oaEn2jhk1nCu9VREAmtTDufQd5kw]]></FromUserName>
+<CreateTime>1356344005</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[u]]></Content>
+</xml>
+2013-01-02 15:00:55,219 - kuaisoo.py:199 - handler - <xml><ToUserName><![CDATA[gh_1ff87fe87f88]]></ToUserName>
+<FromUserName><![CDATA[oaEn2jhk1nCu9VREAmtTDufQd5kw]]></FromUserName>
+<CreateTime>1356344005</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[u]]></Content>
+</xml>
+2013-01-02 15:00:56,621 - kuaisoo.py:199 - handler - <xml><ToUserName><![CDATA[gh_1ff87fe87f88]]></ToUserName>
+<FromUserName><![CDATA[oaEn2jhk1nCu9VREAmtTDufQd5kw]]></FromUserName>
+<CreateTime>1356344005</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[u]]></Content>
+</xml>
+2013-01-02 15:00:56,624 - google.py:31 - handler - url:http://ajax.googleapis.com/ajax/services/search/web?v=1.0&q=u&rsz=large
+2013-01-02 15:00:56,721 - kuaisoo.py:185 - handler - exception on handle msg
+Traceback (most recent call last):
+  File "/Users/user/Documents/workspace/KuaiSoo/src/kuaisoo.py", line 181, in handle
+    result = action(self)
+  File "/Users/user/Documents/workspace/KuaiSoo/src/msg_action.py", line 32, in text_handler
+    content = google.search(wx_post.getNodeValue('Content'))
+  File "/Users/user/Documents/workspace/KuaiSoo/src/google.py", line 35, in search
+    search_results = urllib.urlopen(url)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib.py", line 84, in urlopen
+    return opener.open(url)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib.py", line 205, in open
+    return getattr(self, name)(url)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib.py", line 342, in open_http
+    h.endheaders(data)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 951, in endheaders
+    self._send_output(message_body)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 811, in _send_output
+    self.send(msg)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 773, in send
+    self.connect()
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 754, in connect
+    self.timeout, self.source_address)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/socket.py", line 571, in create_connection
+    raise err
+IOError: [Errno socket error] [Errno 61] Connection refused
+2013-01-02 15:00:56,754 - google.py:31 - handler - url:http://ajax.googleapis.com/ajax/services/search/web?v=1.0&q=u&rsz=large
+2013-01-02 15:00:56,818 - kuaisoo.py:185 - handler - exception on handle msg
+Traceback (most recent call last):
+  File "/Users/user/Documents/workspace/KuaiSoo/src/kuaisoo.py", line 181, in handle
+    result = action(self)
+  File "/Users/user/Documents/workspace/KuaiSoo/src/msg_action.py", line 32, in text_handler
+    content = google.search(wx_post.getNodeValue('Content'))
+  File "/Users/user/Documents/workspace/KuaiSoo/src/google.py", line 35, in search
+    search_results = urllib.urlopen(url)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib.py", line 84, in urlopen
+    return opener.open(url)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib.py", line 205, in open
+    return getattr(self, name)(url)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib.py", line 342, in open_http
+    h.endheaders(data)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 951, in endheaders
+    self._send_output(message_body)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 811, in _send_output
+    self.send(msg)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 773, in send
+    self.connect()
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 754, in connect
+    self.timeout, self.source_address)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/socket.py", line 571, in create_connection
+    raise err
+IOError: [Errno socket error] [Errno 61] Connection refused
+2013-01-02 15:01:16,713 - kuaisoo.py:199 - handler - <xml><ToUserName><![CDATA[gh_1ff87fe87f88]]></ToUserName>
+<FromUserName><![CDATA[oaEn2jhk1nCu9VREAmtTDufQd5kw]]></FromUserName>
+<CreateTime>1356344005</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[u]]></Content>
+</xml>
+2013-01-02 15:01:20,518 - kuaisoo.py:199 - handler - <xml><ToUserName><![CDATA[gh_1ff87fe87f88]]></ToUserName>
+<FromUserName><![CDATA[oaEn2jhk1nCu9VREAmtTDufQd5kw]]></FromUserName>
+<CreateTime>1356344005</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[u]]></Content>
+</xml>
+2013-01-02 15:01:22,535 - kuaisoo.py:199 - handler - <xml><ToUserName><![CDATA[gh_1ff87fe87f88]]></ToUserName>
+<FromUserName><![CDATA[oaEn2jhk1nCu9VREAmtTDufQd5kw]]></FromUserName>
+<CreateTime>1356344005</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[u]]></Content>
+</xml>
+2013-01-02 15:01:22,538 - google.py:31 - handler - url:http://ajax.googleapis.com/ajax/services/search/web?v=1.0&q=u&rsz=large
+2013-01-02 15:01:22,620 - kuaisoo.py:185 - handler - exception on handle msg
+Traceback (most recent call last):
+  File "/Users/user/Documents/workspace/KuaiSoo/src/kuaisoo.py", line 181, in handle
+    result = action(self)
+  File "/Users/user/Documents/workspace/KuaiSoo/src/msg_action.py", line 32, in text_handler
+    content = google.search(wx_post.getNodeValue('Content'))
+  File "/Users/user/Documents/workspace/KuaiSoo/src/google.py", line 35, in search
+    search_results = urllib.urlopen(url)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib.py", line 84, in urlopen
+    return opener.open(url)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib.py", line 205, in open
+    return getattr(self, name)(url)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib.py", line 342, in open_http
+    h.endheaders(data)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 951, in endheaders
+    self._send_output(message_body)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 811, in _send_output
+    self.send(msg)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 773, in send
+    self.connect()
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 754, in connect
+    self.timeout, self.source_address)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/socket.py", line 571, in create_connection
+    raise err
+IOError: [Errno socket error] [Errno 61] Connection refused
+2013-01-02 15:01:22,647 - google.py:31 - handler - url:http://ajax.googleapis.com/ajax/services/search/web?v=1.0&q=u&rsz=large
+2013-01-02 15:01:22,703 - kuaisoo.py:185 - handler - exception on handle msg
+Traceback (most recent call last):
+  File "/Users/user/Documents/workspace/KuaiSoo/src/kuaisoo.py", line 181, in handle
+    result = action(self)
+  File "/Users/user/Documents/workspace/KuaiSoo/src/msg_action.py", line 32, in text_handler
+    content = google.search(wx_post.getNodeValue('Content'))
+  File "/Users/user/Documents/workspace/KuaiSoo/src/google.py", line 35, in search
+    search_results = urllib.urlopen(url)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib.py", line 84, in urlopen
+    return opener.open(url)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib.py", line 205, in open
+    return getattr(self, name)(url)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib.py", line 342, in open_http
+    h.endheaders(data)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 951, in endheaders
+    self._send_output(message_body)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 811, in _send_output
+    self.send(msg)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 773, in send
+    self.connect()
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 754, in connect
+    self.timeout, self.source_address)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/socket.py", line 571, in create_connection
+    raise err
+IOError: [Errno socket error] [Errno 61] Connection refused
+2013-01-02 15:07:49,321 - kuaisoo.py:200 - handler - <xml><ToUserName><![CDATA[gh_1ff87fe87f88]]></ToUserName>
+<FromUserName><![CDATA[oaEn2jhk1nCu9VREAmtTDufQd5kw]]></FromUserName>
+<CreateTime>1356344005</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[u]]></Content>
+</xml>
+2013-01-02 15:07:57,625 - kuaisoo.py:200 - handler - <xml><ToUserName><![CDATA[gh_1ff87fe87f88]]></ToUserName>
+<FromUserName><![CDATA[oaEn2jhk1nCu9VREAmtTDufQd5kw]]></FromUserName>
+<CreateTime>1356344005</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[u]]></Content>
+</xml>
+2013-01-02 15:13:02,713 - kuaisoo.py:201 - handler - <xml><ToUserName><![CDATA[gh_1ff87fe87f88]]></ToUserName>
+<FromUserName><![CDATA[oaEn2jhk1nCu9VREAmtTDufQd5kw]]></FromUserName>
+<CreateTime>1356344005</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[u]]></Content>
+</xml>
+2013-01-02 15:13:02,715 - kuaisoo.py:124 - handler - new user with wx id:oaEn2jhk1nCu9VREAmtTDufQd5kw
+2013-01-02 15:13:02,716 - kuaisoo.py:201 - handler - <xml><ToUserName><![CDATA[gh_1ff87fe87f88]]></ToUserName>
+<FromUserName><![CDATA[oaEn2jhk1nCu9VREAmtTDufQd5kw]]></FromUserName>
+<CreateTime>1356344005</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[u]]></Content>
+</xml>
+2013-01-02 15:13:02,910 - kuaisoo.py:201 - handler - <xml><ToUserName><![CDATA[gh_1ff87fe87f88]]></ToUserName>
+<FromUserName><![CDATA[oaEn2jhk1nCu9VREAmtTDufQd5kw]]></FromUserName>
+<CreateTime>1356344005</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[u]]></Content>
+</xml>
+2013-01-02 15:13:02,911 - google.py:31 - handler - url:http://ajax.googleapis.com/ajax/services/search/web?v=1.0&q=u&rsz=large
+2013-01-02 15:13:03,438 - kuaisoo.py:187 - handler - exception on handle msg
+Traceback (most recent call last):
+  File "/Users/user/Documents/workspace/KuaiSoo/src/kuaisoo.py", line 183, in handle
+    result = action(self)
+  File "/Users/user/Documents/workspace/KuaiSoo/src/msg_action.py", line 32, in text_handler
+    content = google.search(wx_post.getNodeValue('Content'))
+  File "/Users/user/Documents/workspace/KuaiSoo/src/google.py", line 35, in search
+    search_results = urllib.urlopen(url)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib.py", line 84, in urlopen
+    return opener.open(url)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib.py", line 205, in open
+    return getattr(self, name)(url)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib.py", line 342, in open_http
+    h.endheaders(data)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 951, in endheaders
+    self._send_output(message_body)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 811, in _send_output
+    self.send(msg)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 773, in send
+    self.connect()
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 754, in connect
+    self.timeout, self.source_address)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/socket.py", line 571, in create_connection
+    raise err
+IOError: [Errno socket error] [Errno 61] Connection refused
+2013-01-02 15:13:03,443 - google.py:31 - handler - url:http://ajax.googleapis.com/ajax/services/search/web?v=1.0&q=u&rsz=large
+2013-01-02 15:13:04,601 - kuaisoo.py:187 - handler - exception on handle msg
+Traceback (most recent call last):
+  File "/Users/user/Documents/workspace/KuaiSoo/src/kuaisoo.py", line 183, in handle
+    result = action(self)
+  File "/Users/user/Documents/workspace/KuaiSoo/src/msg_action.py", line 32, in text_handler
+    content = google.search(wx_post.getNodeValue('Content'))
+  File "/Users/user/Documents/workspace/KuaiSoo/src/google.py", line 35, in search
+    search_results = urllib.urlopen(url)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib.py", line 84, in urlopen
+    return opener.open(url)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib.py", line 205, in open
+    return getattr(self, name)(url)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib.py", line 342, in open_http
+    h.endheaders(data)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 951, in endheaders
+    self._send_output(message_body)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 811, in _send_output
+    self.send(msg)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 773, in send
+    self.connect()
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 754, in connect
+    self.timeout, self.source_address)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/socket.py", line 571, in create_connection
+    raise err
+IOError: [Errno socket error] [Errno 61] Connection refused
+2013-01-07 20:55:28,128 - kuaisoo.py:211 - handler - <xml><ToUserName><![CDATA[gh_1ff87fe87f88]]></ToUserName>
+<FromUserName><![CDATA[oaEn2jhk1nCu9VREAmtTDufQd5kw]]></FromUserName>
+<CreateTime>1356344005</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[u]]></Content>
+</xml>
+2013-01-07 20:55:28,155 - kuaisoo.py:211 - handler - <xml><ToUserName><![CDATA[gh_1ff87fe87f88]]></ToUserName>
+<FromUserName><![CDATA[oaEn2jhk1nCu9VREAmtTDufQd5kw]]></FromUserName>
+<CreateTime>1356344005</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[u]]></Content>
+</xml>
+2013-01-07 20:55:28,155 - kuaisoo.py:110 - handler - session file name :./session/<kuaisoo.Request object at 0x10aabc850> 
+2013-01-07 20:55:28,178 - kuaisoo.py:211 - handler - <xml><ToUserName><![CDATA[gh_1ff87fe87f88]]></ToUserName>
+<FromUserName><![CDATA[oaEn2jhk1nCu9VREAmtTDufQd5kw]]></FromUserName>
+<CreateTime>1356344005</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[u]]></Content>
+</xml>
+2013-01-07 20:55:28,178 - google_wx.py:193 - handler - exception on search text
+Traceback (most recent call last):
+  File "/Users/user/Documents/workspace/KuaiSoo/src/google_wx.py", line 170, in search_text
+    init(wxPost)
+  File "/Users/user/Documents/workspace/KuaiSoo/src/google_wx.py", line 141, in init
+    current_session = kuaisoo.Session.load_session()
+  File "/Users/user/Documents/workspace/KuaiSoo/src/kuaisoo.py", line 125, in load_session
+    raise Exception("gonna load an session without NULL req!")
+Exception: gonna load an session without NULL req!
+2013-01-07 20:55:28,178 - kuaisoo.py:197 - handler - exception on handle msg
+Traceback (most recent call last):
+  File "/Users/user/Documents/workspace/KuaiSoo/src/kuaisoo.py", line 195, in handle
+    raise Exception("user action returns not string, but %s"%(str(result)))
+Exception: user action returns not string, but None
+2013-01-07 20:55:28,181 - google_wx.py:193 - handler - exception on search text
+Traceback (most recent call last):
+  File "/Users/user/Documents/workspace/KuaiSoo/src/google_wx.py", line 170, in search_text
+    init(wxPost)
+  File "/Users/user/Documents/workspace/KuaiSoo/src/google_wx.py", line 141, in init
+    current_session = kuaisoo.Session.load_session()
+  File "/Users/user/Documents/workspace/KuaiSoo/src/kuaisoo.py", line 125, in load_session
+    raise Exception("gonna load an session without NULL req!")
+Exception: gonna load an session without NULL req!
+2013-01-07 20:55:28,181 - kuaisoo.py:197 - handler - exception on handle msg
+Traceback (most recent call last):
+  File "/Users/user/Documents/workspace/KuaiSoo/src/kuaisoo.py", line 195, in handle
+    raise Exception("user action returns not string, but %s"%(str(result)))
+Exception: user action returns not string, but None
